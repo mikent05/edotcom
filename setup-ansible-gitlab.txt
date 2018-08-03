@@ -1,5 +1,13 @@
+Ubuntu Setup
+째째째째째째째째째째째째
+
+
+
+Centos Setup
+째째째째째째째째째째째째
+
 Ansible
-같같같�
+째째째째째째째
 
 sudo yum update
 sudo yum upgrade
@@ -79,7 +87,7 @@ ansible-config view
 sudo yum install -y epel-release && sudo yum update && sudo yum install -y python-pip
 
 Gitlab
-같같같
+째째째째째째
 
 sudo yum install -y curl policycoreutils-python openssh-server
 sudo yum install postfix

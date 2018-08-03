@@ -130,6 +130,12 @@ sudo EXTERNAL_URL="http://gitlab.edotcom.be" apt-get install gitlab-ee
 
 setup your password and login back as root
 
+Installing Basic Git on Ubuntu
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+sudo apt install git-all
+
+
 Maintenance commands for Gitlab
 °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
 

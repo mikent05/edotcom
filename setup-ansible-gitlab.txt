@@ -121,3 +121,17 @@ curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.de
 sudo EXTERNAL_URL="http://gitlab.edotcom.be" apt-get install gitlab-ee
 
 setup your password and login back as root
+
+Maintenance commands for Gitlab
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+Reference: https://docs.gitlab.com/omnibus/settings/configuration.html#configuring-the-external-url-for-gitlab
+
+Main configuration file is located here at /etc/gitlab/gitlab.rb
+
+sudo gitlab-ctl stop unicorn
+sudo gitlab-ctl stop sidekiq
+
+sudo gitlab-ctl reconfigure
+sudo gitlab-ctl restart
+

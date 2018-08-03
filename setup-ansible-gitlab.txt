@@ -10,6 +10,14 @@ sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get update
 sudo apt-get install ansible
 
+Upgrade Ubuntu
+
+sudo apt-get install update-manager-core
+cat /etc/update-manager/release-upgrades | grep Prompt (make sure it is set to normal (no lts))
+sudo do-release-upgrade
+
+https://websiteforstudents.com/how-to-upgrade-from-ubuntu-17-10-artful-aardvark-to-ubuntu-18-04-lts-beta/
+
 Centos Setup
 °°°°°°°°°°°°
 

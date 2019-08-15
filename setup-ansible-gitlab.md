@@ -1,4 +1,5 @@
 # How to install Ansible on Ubuntu and Centos
+{: .gitlab-orange}
 
 ## Install Ansible on Ubuntu
 

@@ -5,6 +5,7 @@
 **Update Ubuntu repo cache , install ansible repo and install the packages**
 
 ```
+{: .code-color}
 sudo apt-get update
 sudo apt-get install software-properties-common
 sudo apt-add-repository ppa:ansible/ansible
@@ -52,7 +53,6 @@ touch hosts/hosts.yml
 ```
 Configure Ansible main configuration file /etc/ansible/ansible.cfg
 ```
-<span style="background-color:grey">
 [defaults]
 ; reference: http://docs.ansible.com/intro_configuration.html
 ansible_managed               = Ansible managed
@@ -102,7 +102,6 @@ pipelining                    = True
 special_context_filesystems   = nfs,vboxsf,fuse,ramfs
 [colors]
 [diff]
-</span>
 ```
 
 `ansible-config view`
@@ -168,3 +167,8 @@ sudo mkdir -p /devops/ansible/hosts/host_vars
 sudo mkdir -p /devops/ansible/groups/group_vars
 sudo mkdir -p /devops/ansible/{etc,roles,templates,libraries,modules,logs}
 ```
+<style>
+.code-color {
+  background-color: grey !important;
+}
+</style>

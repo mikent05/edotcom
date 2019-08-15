@@ -110,6 +110,7 @@ Add RH repo and python manager
 ```
 sudo yum install -y epel-release && sudo yum update && sudo yum install -y python-pip
 ```
+---
 # How to install Gitlab on Ubuntu and Centos
 
 ## Install GitLab on Centos

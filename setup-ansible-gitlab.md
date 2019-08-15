@@ -14,12 +14,12 @@ sudo apt-get install ansible
 
 **How to upgrade Ubuntu to latest release**
 
-[Reference](https://websiteforstudents.com/how-to-upgrade-from-ubuntu-17-10-artful-aardvark-to-ubuntu-18-04-lts-beta/)
-
-
-> sudo apt-get install update-manager-core
-> cat /etc/update-manager/release-upgrades | grep Prompt (make sure it is set to normal (no lts))
-> sudo do-release-upgrade
+```
+sudo apt-get install update-manager-core
+cat /etc/update-manager/release-upgrades | grep Prompt (make sure it is set to normal (no lts))
+sudo do-release-upgrade
+```
+Upgrade documentation can be found [here](https://websiteforstudents.com/how-to-upgrade-from-ubuntu-17-10-artful-aardvark-to-ubuntu-18-04-lts-beta/)
 
 ## Install Ansible on Centos 
 

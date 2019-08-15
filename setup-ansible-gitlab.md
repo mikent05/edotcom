@@ -11,7 +11,6 @@ sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get update
 sudo apt-get install ansible
 ```
-{: .code-color}
 
 **How to upgrade Ubuntu to latest release**
 

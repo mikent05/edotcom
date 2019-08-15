@@ -20,6 +20,7 @@ cat /etc/update-manager/release-upgrades | grep Prompt (make sure it is set to n
 sudo do-release-upgrade
 ```
 Upgrade documentation can be found [here](https://websiteforstudents.com/how-to-upgrade-from-ubuntu-17-10-artful-aardvark-to-ubuntu-18-04-lts-beta/)
+
 ---
 ## Install Ansible on Centos 
 

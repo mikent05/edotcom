@@ -52,6 +52,7 @@ touch hosts/hosts.yml
 ```
 Configure Ansible main configuration file /etc/ansible/ansible.cfg
 ```
+<span style="background-color:grey">
 [defaults]
 ; reference: http://docs.ansible.com/intro_configuration.html
 ansible_managed               = Ansible managed
@@ -101,6 +102,7 @@ pipelining                    = True
 special_context_filesystems   = nfs,vboxsf,fuse,ramfs
 [colors]
 [diff]
+</span>
 ```
 
 `ansible-config view`

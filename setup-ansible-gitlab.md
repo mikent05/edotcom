@@ -165,10 +165,4 @@ sudo mkdir -p /devops/ansible/{hosts,groups}
 sudo mkdir -p /devops/ansible/hosts/host_vars
 sudo mkdir -p /devops/ansible/groups/group_vars
 sudo mkdir -p /devops/ansible/{etc,roles,templates,libraries,modules,logs}
-{: .code-color}
 ```
-<style>
-.code-color {
-  color: grey !important;
-}
-</style>

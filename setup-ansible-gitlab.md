@@ -148,7 +148,7 @@ setup your password and login back as root
 ```
 sudo apt install git-all
 ```
-# Maintenance commands for Gitlab
+## Maintenance commands for Gitlab
 
 [Reference](https://docs.gitlab.com/omnibus/settings/configuration.html#configuring-the-external-url-for-gitlab)
 

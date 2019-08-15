@@ -16,11 +16,11 @@ sudo apt-get install ansible
 
 [Reference](https://websiteforstudents.com/how-to-upgrade-from-ubuntu-17-10-artful-aardvark-to-ubuntu-18-04-lts-beta/)
 
-```
-sudo apt-get install update-manager-core
-cat /etc/update-manager/release-upgrades | grep Prompt (make sure it is set to normal (no lts))
-sudo do-release-upgrade
-```
+
+> sudo apt-get install update-manager-core
+> cat /etc/update-manager/release-upgrades | grep Prompt (make sure it is set to normal (no lts))
+> sudo do-release-upgrade
+
 ## Install Ansible on Centos 
 
 Update Centos repo cache , install ansible repo and install the packages
@@ -102,9 +102,9 @@ special_context_filesystems   = nfs,vboxsf,fuse,ramfs
 [colors]
 [diff]
 ```
-```
-ansible-config view
-```
+
+`ansible-config view`
+
 Add RH repo and python manager
 ```
 sudo yum install -y epel-release && sudo yum update && sudo yum install -y python-pip

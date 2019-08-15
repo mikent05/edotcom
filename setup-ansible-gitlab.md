@@ -4,11 +4,13 @@
 
 Update Ubuntu repo cache , install ansible repo and install the packages
 
+```
 sudo apt-get update
 sudo apt-get install software-properties-common
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get update
 sudo apt-get install ansible
+```
 
 How to upgrade Ubuntu to latest release
 

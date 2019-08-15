@@ -2,7 +2,7 @@
 
 ## Install Ansible on Ubuntu
 
-Update Ubuntu repo cache , install ansible repo and install the packages
+**Update Ubuntu repo cache , install ansible repo and install the packages**
 
 ```
 sudo apt-get update
@@ -12,7 +12,7 @@ sudo apt-get update
 sudo apt-get install ansible
 ```
 
-How to upgrade Ubuntu to latest release
+**How to upgrade Ubuntu to latest release**
 
 [Reference](https://websiteforstudents.com/how-to-upgrade-from-ubuntu-17-10-artful-aardvark-to-ubuntu-18-04-lts-beta/)
 
